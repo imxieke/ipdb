@@ -1,6 +1,8 @@
 # ip-collect
 IP 收集处理并归类
 
+所有数据来自 `apnic afrinic arin lacnic ripencc`
+
 包含全球 ASN IPV4 IPV6
 并归类出每个国家的 ASN IPV4 IPV6
 
