@@ -179,6 +179,7 @@ function start()
 	update_ip 		# 获取最新 IP
 	get_global_ip 	# 合并 IP 生成全球 IP 列表 并分离 ASN IPV4 IPV6
 	get_all_country # 获取所有国家名称缩写
+	gen_total
 
 	# 分离所有国家的 ASN IPV4 IPV6 
 	COUNTRYS=$(cat ${COUNTRY_FILE})
@@ -189,5 +190,4 @@ function start()
 	# get_all_asn 
 }
 
-# start
-gen_total
+start
