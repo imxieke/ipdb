@@ -10,7 +10,9 @@ IP 收集处理并归类
 
 org/country/type/ip/segment/time
 
-if country is null then it is reserved (保留尚未分配)
+用途: 防火墙屏蔽指定国家访客 各种你懂的工具白名单
+
+Country 目录说明
 
 ```
 lists/country/CN
